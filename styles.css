@@ -1,9 +1,9 @@
 body {
     color: white;
+    background-color: black;
 }
 
 .header {
-    display: flex;
     height: 400px;
     width: 100%;
     flex-direction: column;
@@ -11,6 +11,7 @@ body {
 }
 
 .bannerimage {
+    display: flex;
     flex: 1;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,4 +45,44 @@ a {
     font-weight: 400;
     font-size: 20px;
     color: white;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-one {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white;
+}
+
+.hero-image {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background-color: white;
+
 }
